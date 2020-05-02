@@ -8,14 +8,10 @@ const draw = (ctx, character, point) => {
   let x = 0;
   let y = 0;
 
-  console.log({ initialX, initialY });
+  const totalColumns = Math.max(...character.map((arr) => arr.length));
 
   for (let row = 0; row < character.length; row++) {
-    for (
-      let column = 0;
-      column < Math.max(...character.map((arr) => arr.length));
-      column++
-    ) {
+    for (let column = 0; column < totalColumns; column++) {
       const pixel = character[row][column];
       if (!pixel) {
         x += pixel_size;

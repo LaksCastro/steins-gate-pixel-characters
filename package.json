@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-parcel-boilerplate",
+  "name": "steins-gate-pixel-characters",
   "version": "1.0.0",
-  "description": "Simple workflow starter for building vanilla JS apps",
+  "description": "Yes, a long time ago, someone was able to complete this project to the sound of a Synthwave 80's",
   "main": "index.js",
   "scripts": {
     "dev": "parcel public/index.html --out-dir development -p 3000",
@@ -14,7 +14,7 @@
   "keywords": [
     "parcel"
   ],
-  "author": "Brad Traversy",
+  "author": "LaksCastro",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bradtraversy/vanilla-parcel-boilerplate/issues"
@@ -27,7 +27,5 @@
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.3"
   },
-  "dependencies": {
-    "axios": "^0.19.2"
-  }
+  "dependencies": {}
 }

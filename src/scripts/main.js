@@ -15,6 +15,10 @@ import utils from "./utils";
 
 const { pixel_size } = utils;
 
+// ========================================
+// RENDER CANVAS NODE ELEMENTS
+// ========================================
+
 const createNodeCanvas = () => {
   Object.keys(Characters).forEach((key) => {
     key = key.toLowerCase();
@@ -22,6 +26,10 @@ const createNodeCanvas = () => {
     document.body.innerHTML += Wrapper(key);
   });
 };
+
+// ========================================
+// NOW, RENDER ALL CANVAS PIXELS CHARACTERS(src/pixels)
+// ========================================
 const renderCanvas = () => {
   Object.keys(Characters).forEach((key) => {
     const character = Characters[key];
