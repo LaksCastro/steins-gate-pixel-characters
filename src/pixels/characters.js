@@ -1429,9 +1429,11 @@ const TUTURU = [
     false,
   ],
 ];
+
 const SUPER_HACKA = [[]];
 const KURISUTINA = [[]];
 const MOE_MOE_CHAN = [[]];
+const MOEKA = [[]];
 const FEYRIS_NYAN = [[]];
 const DAGA_OTOKO_DA = [[]];
 26;
@@ -1441,6 +1443,7 @@ export default Object.freeze({
   SUPER_HACKA,
   KURISUTINA,
   MOE_MOE_CHAN,
+  MOEKA,
   FEYRIS_NYAN,
   DAGA_OTOKO_DA,
 });

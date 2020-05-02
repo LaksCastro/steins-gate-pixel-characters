@@ -5,23 +5,22 @@
   list-style: none;
 }
 
-html {
-  width: 100%;
-  height: 100%;
-}
 body {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
 
-  display: flex;
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-template-rows: repeat(auto-fit, 250px);
   justify-content: center;
+  justify-items: center;
+  align-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .wrapper {
-  background-color: #d9d9d9;
-
   width: 100%;
   height: 100%;
 
@@ -31,11 +30,28 @@ body {
   min-height: 100px;
   min-width: 100px;
 
-  padding: 8px;
+  padding: 16px 8px;
+
+  position: relative;
+
+  // &::before {
+  //   position: absolute;
+  //   left: 0;
+  //   top: 50%;
+  //   transform: translateY(-50%);
+
+  //   border-radius: 50%;
+  //   width: 45px;
+  //   height: 45px;
+
+  //   background: gold;
+  // }
 }
 .character-canvas {
   width: 100%;
   height: 100%;
-  background: #f1f1f1;
+  background: linear-gradient(to bottom, transparent 50%, #c6d1d7 50%);
   image-rendering: pixelated;
+  border-radius: 12px;
+  box-shadow: 1px 2px 15px 0 #f1f1f1;
 }

@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/bradtraversy/vanilla-parcel-boilerplate/issues"
   },
-  "homepage": "https://github.com/bradtraversy/vanilla-parcel-boilerplate#readme",
+  "homepage": "/steins-gate-pixel-characters",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.9.0",
