@@ -4,6 +4,7 @@ export default function Wrapper(id) {
   return `
         <div class="wrapper">
             ${Canvas(id)}
+            <div class="sun"></div>
         </div>
     `;
 }
